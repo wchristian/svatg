@@ -44,7 +44,7 @@
 		padding:0;
         }
         #main {
-            width: 801px !important;
+            width: 792px !important;
             min-height: 100%;
             height: auto !important;
             height: 100%;
@@ -83,43 +83,100 @@
 		border:0;
 		height:140px;
 		overflow:hidden;
-		display:inline-block;
+		display:block;
         }
         #releases tr td {
 		margin:0;
 		padding:0;
 		border:0;
 		vertical-align:top;		
-		width:267px;
-		height:140px;
-		overflow:hidden;
+		width:264px;
         }
-        #releases tr td a img {
-		width: 267px;
+        #releases tr td img {
+		width: 264px;
+		margin:0;
+		padding:0;
+		border:0;
+		top:0;
+		left:0;
+        }
+        #releases tr td .upper {
+		display:block;
 		margin:0;
 		padding:0;
 		border:0;
 		position:relative;
-		top:0px;
-		left:0px;
+		top:0;
+		left:0;
+		z-index:2;
         }
-        #releases td.full {
-		background-color:#101010;
+        #releases tr td .upper:hover {
+		z-index:0;
         }
-        #releases tr td a {
-		margin-top:0px;
-		padding-top:0px;
-		display:inline-block;
+        #releases tr td .lower {
+		display:block;
+		margin:0;
+		padding:0;
+		border:0;
+		position:relative;
+		top:0;
+		left:0;
+		margin-top:-140px;
+		z-index:1;
+        }
+        #releases tr td .lower:hover {
+		z-index:3;
+        }
+        div.imagecont {
+		position:relative;
+		top:0;
+		left:0;
+		width:264px;
+		height:140px;
 		overflow:hidden;
         }
-        #releases tr td a:hover {
-		margin-top:10px;
-		display:inline-block;
+        div.linkcont {
+		position:relative;
+		top:0;
+		left:0;
+		width:264px;
+		height:140px;
 		overflow:hidden;
-		height:120px;
+		opacity:0.7;
         }
-        #releases tr td a:hover img {
-		margin-top:-10px;
+        div.linkcont a {
+		float:left;
+		display:inline-block;
+		height:100%;
+		background:#000000;
+		color:#FFFFFF;
+		vertical-align:middle;		
+        }
+        div.linkcont a span {
+		display:inline-block;
+		padding-top:5%;
+        }
+	div.linkcont a:hover {
+		background:#FFFFFF;
+		color:#000000;
+        }
+        a.twolink {
+		width:50%;
+        }
+        a.threelink {
+		width:88px;
+        }
+        div.linkcont a.fourlink {
+		height:50%;
+		width:50%;
+        }
+        div.linkcont a.fivelink_a {
+		height:50%;
+		width:50%;
+        }
+        div.linkcont a.fivelink_b {
+		height:50%;
+		width:88px;
         }
     </style>
 </head>
@@ -138,12 +195,50 @@
 			<td style="height:auto;">Games</td>
 		</tr>
 		<tr>
-			<td class="full"><a href="http://www.pouet.net/prod.php?which=59114"><img src="images/59114.png"/></a></td>
-			<td class="full"><a href="http://www.pouet.net/prod.php?which=56460"><img src="images/56460.png"/></a></td>
+			<td class="full">
+				<div>
+				<a class="upper" href="http://www.pouet.net/prod.php?which=59114">
+				<div class="imagecont"><img src="images/59114.png"/></div>
+				</a>		
+				<div class="lower">
+				<div class="linkcont">
+					<a class="fourlink" href="http://engramstudio.com/demo/bpnonvite.zip"><span>download</span></a>
+					<a class="fourlink" href="http://www.pouet.net/prod.php?which=59114"><span>pouet</span></a>
+					<a class="fourlink" href="http://www.youtube.com/watch?v=M4Lzjr-na30"><span>video<span></a>
+					<a class="fourlink" href="http://www.youtube.com/watch?v=bpd0aG6WoMs"><span>video<br/>(live)<span></a>
+				</div>
+				</div>
+			</td>
+			<td class="full">
+				<div>
+				<a class="upper" href="http://www.pouet.net/prod.php?which=56460">
+				<div class="imagecont"><img src="images/56460.png"/></div>
+				</a>
+				<div class="lower">
+				<div class="linkcont">
+					<a class="twolink" href="http://aka-san.halcy.de/tum/jules.zip"><span>download</span></a>
+					<a class="twolink" href="http://www.pouet.net/prod.php?which=56460"><span>pouet</span></a>
+				</div>
+				</div>
+			</td>
 			<td class="full"><a href="http://www.pouet.net/prod.php?which=58252"><img src="images/58252.jpg"/></a></td>			
 		</tr>
 		<tr>
-			<td class="full"><a href="http://www.pouet.net/prod.php?which=59095"><img src="images/59095.jpg"/></a></td>
+			<td class="full">
+				<div>
+				<a class="upper" href="http://www.pouet.net/prod.php?which=59095">
+				<div class="imagecont"><img src="images/59095.jpg"/></a></div>
+				</a>
+				<div class="lower">
+				<div class="linkcont">
+					<a class="fivelink_a" href="http://aka-san.halcy.de/revision2012/peridiummmm.zip"><span>download</span></a>
+					<a class="fivelink_a" href="http://aka-san.halcy.de/revision2012/peridiummmm-src.zip"><span>source<br/>code</span></a>
+					<a class="fivelink_b" href="http://www.pouet.net/prod.php?which=59095"><span>pouet</span></a>
+					<a class="fivelink_b" href="http://www.youtube.com/watch?v=KsToQmFndpg"><span>video</span></a>
+					<a class="fivelink_b" href="http://www.youtube.com/watch?v=22XphZTmq4U"><span>video<br/>(live)</span></a>
+				</div>
+				</div>
+			</td>
 			<td class="full"><a href="http://www.pouet.net/prod.php?which=54532"><img src="images/54532.jpg"/></a></td>
 			<td class="full"><a href="http://www.pouet.net/prod.php?which=58249"><img src="images/58249.png"/></a></td>			
 		</tr>
