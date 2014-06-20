@@ -1,0 +1,93 @@
+# Add new releases on top. Format should be obvious.
+# Two links is minimum, five links is maximum.
+# You can add comments if you want to.
+# To update: perl rebuild.pl < demos.txt
+
+~Demo|Super Burrito Legend|61477.jpg|http://pouet.net/prod.php?which=61477
+http://scene.org/file.php?file=%2Fparties%2F2013%2Fatparty13%2Fdemo%2Fsuper.zip&fileinfo binary<br/>pc<br/>win
+http://pouet.net/prod.php?which=61477 pouet
+http://www.youtube.com/watch?v=Fl8xbfYm9G4 video
+
+~Intro|Great-Scott|62933.jpg|http://pouet.net/prod.php?which=62933
+http://aka-san.halcy.de/revision2014/great-scott.zip binary<br/>pc<br/>win
+http://pouet.net/prod.php?which=62933 pouet
+https://www.youtube.com/watch?v=DGQGNy_mpus video
+
+~Game|SoratobuOL tai shinrei|58252.jpg|http://www.pouet.net/prod.php?which=58252
+http://wakaba.c3.cx/svatg/Soratobu_OL_tai_shinrei_%5btUM_2011_Windows_version%5d.zip binary<br/>pc<br/>win
+http://wakaba.c3.cx/svatg/Soratobu_OL_tai_shinrei_%5bMac_early_preview_version%5d.zip binary<br/>mac
+http://www.pouet.net/prod.php?which=58252 pouet
+
+~Demo|Jupiter &amp; Beyond|61197.jpg|http://pouet.net/prod.php?which=61197
+http://aka-san.halcy.de/revision2013/jupiter.zip binary<br/>arm
+http://wakaba.c3.cx/releases/scene/jupiter-src.zip source<br/>code
+http://pouet.net/prod.php?which=61197 pouet
+http://www.youtube.com/watch?v=ymGCeG9_6c0 video
+
+~Intro|Hompy|59385.png|http://pouet.net/prod.php?which=59385
+http://engramstudio.com/demo/hompy.zip binary<br/>pc<br/>dos
+http://pouet.net/prod.php?which=59385 pouet
+
+~Game|Herocat vs. Univillain|58249.png|http://www.pouet.net/prod.php?which=58249
+http://halcy.de/tum2011/univillain.zip binary<br/>nds
+http://www.pouet.net/prod.php?which=58249 pouet
+
+~Demo|SVatG Loves You|59692.jpg|http://pouet.net/prod.php?which=59692
+http://aka-san.halcy.de/evoke2012/svatglovesyou.zip binary<br/>nds
+http://pouet.net/prod.php?which=59692 pouet
+
+~Intro|jules|56460.png|http://www.pouet.net/prod.php?which=56460
+http://aka-san.halcy.de/tum/jules.zip binary<br/>pc<br/>win
+http://www.pouet.net/prod.php?which=56460 pouet
+
+~Game|The Last Cubinator|56461.jpg|http://www.pouet.net/prod.php?which=56461
+http://aka-san.halcy.de/tum/tlc.zip binary<br/>pc<br/>win
+http://www.pouet.net/prod.php?which=56461 pouet
+
+~Demo|Blockparty 5 Non-Invitation|59114.png|http://www.pouet.net/prod.php?which=59114
+http://engramstudio.com/demo/bpnonvite.zip binary<br/>pc<br/>win
+http://www.pouet.net/prod.php?which=59114 pouet
+http://www.youtube.com/watch?v=M4Lzjr-na30 video
+http://www.youtube.com/watch?v=bpd0aG6WoMs video<br/>live
+
+~Intro|Five Dollar Plastic Laminator|54532.jpg|http://www.pouet.net/prod.php?which=54532
+http://aka-san.halcy.de/bp2010/5dpl.zip binary<br/>pc<br/>win
+http://www.pouet.net/prod.php?which=54532 pouet
+http://capped.tv/svatg-five_dollar_plastic_laminator video
+
+~Game|Puc McAwesome|54211.png|http://www.pouet.net/prod.php?which=54211
+http://aka-san.halcy.de/tum/PucMcAwesome.zip binary<br/>nds
+http://www.pouet.net/prod.php?which=54211 pouet
+
+~Demo|Peridiummmm|59095.jpg|http://www.pouet.net/prod.php?which=59095
+http://aka-san.halcy.de/revision2012/peridiummmm.zip binary<br/>arm
+http://aka-san.halcy.de/revision2012/peridiummmm-src.zip source<br/>code
+http://www.pouet.net/prod.php?which=59095 pouet
+http://www.youtube.com/watch?v=KsToQmFndpg video
+http://www.youtube.com/watch?v=22XphZTmq4U video<br/>live
+
+~Intro|Four Dollar Plastic Laminator|54210.png|http://www.pouet.net/prod.php?which=54210
+http://aka-san.halcy.de/tum/SVatG_FourDollarPlasticLaminator.zip binary<br/>pc<br/>linux
+http://www.pouet.net/prod.php?which=54210 pouet
+http://www.youtube.com/watch?v=COluewhIUG4 video
+
+~Demo|Heinrich-Siegfried-Viktor|56864.png|http://www.pouet.net/prod.php?which=56864
+http://aka-san.halcy.de/revision/heinrichsiegfriedviktor.zip binary<br/>nds
+http://www.pouet.net/prod.php?which=56864 pouet
+http://www.youtube.com/watch?v=oEho9aEhUX0 video
+
+~Demo|It's 1975 and this man is about to show you the future|55739.png|http://www.pouet.net/prod.php?which=55739
+http://aka-san.halcy.de/evoke2010/its1975andthismanisabouttoshowyouthefuture.zip binary<br/>nds
+http://www.pouet.net/prod.php?which=55739 pouet
+http://www.youtube.com/watch?v=lg6GpSm6xeg video
+http://www.youtube.com/watch?v=Af-gjk39lds video<br/>live
+
+~Demo|Nulltro|54271.png|http://www.pouet.net/prod.php?which=54271
+http://engramstudio.com/nulltro.rar binary<br/>pc<br/>win
+http://www.pouet.net/prod.php?which=54271 pouet
+http://www.youtube.com/watch?v=S6-q9RHjn6c video
+
+~Demo|The Strongest Demo|52967.png|http://www.pouet.net/prod.php?which=52967
+http://wakaba.c3.cx/releases/scene/the_strongest_demo.zip binary<br/>nds
+http://www.pouet.net/prod.php?which=52967 pouet
+http://www.youtube.com/watch?v=_JfbN0gBZFE video

@@ -1,0 +1,15 @@
+    </table>
+    
+    <div id="push"></div>
+    </div>
+    <div id="footer">
+    <pre>GREETINGS TO <a href="http://demogroup.vc/">ELITE</a><br><a href="http://twitter.com/AMIGAAAAAAA">FUCKINGS</a> TO <a href="http://www.golamers.com/">LAMERS</a></pre>
+
+    <div style="font-size:12px;"><a href="http://codepad.org/qJLklltO"><pre>main(x,y,n){for(y=15;y&gt;-x;puts(""),y-=2)for(x=-x;x&lt;13;x++)n=x*x+y*y-99,putchar(" +"[n*n*n-x*x*y*y*y*20&lt;3]);}</pre></a></div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
