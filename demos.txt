@@ -3,6 +3,10 @@
 # You can add comments if you want to.
 # To update: perl rebuild.pl < demos.txt
 
+~Intro|suboptimal hexagon|63593.jpg|http://www.pouet.net/prod.php?which=63593
+https://www.scene.org/file.php?file=%2Fparties%2F2014%2Fatparty14%2Fdemo_combined%2Fsuboptimalhex.zip&fileinfo binary<br/>pc<br/>win
+http://www.pouet.net/prod.php?which=63593 pouet
+
 ~Demo|Super Burrito Legend|61477.jpg|http://pouet.net/prod.php?which=61477
 http://scene.org/file.php?file=%2Fparties%2F2013%2Fatparty13%2Fdemo%2Fsuper.zip&fileinfo binary<br/>pc<br/>win
 http://pouet.net/prod.php?which=61477 pouet
