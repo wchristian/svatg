@@ -67,7 +67,7 @@ while(<>) {
         # Store old
         if(scalar @links > 0) {
             my @prod = ($title, $image, $primary_link, [@links]);
-            push $prods{lc($type)}, \@prod;
+            push @{$prods{lc($type)}}, \@prod;
         }
         
         # Prepare new
@@ -88,7 +88,7 @@ while(<>) {
 
 # Store last
 my @prod = ($title, $image, $primary_link, [@links]);
-push $prods{lc($type)}, \@prod;
+push @{$prods{lc($type)}}, \@prod;
 
 # Figure out which category has the most entries
 my @prod_counts = map{scalar @{$prods{lc($_)}}} @types;
