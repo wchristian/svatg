@@ -3,9 +3,9 @@
 # You can add comments if you want to.
 # To update: perl rebuild.pl < demos.txt
 
-~Demo|two hundred|two_hundred.jpg|http://www.pouet.net/prod.php?which=TODOFIXME
+~Demo|two hundred|two_hundred.jpg|https://www.pouet.net/prod.php?which=67668
 http://aka-san.halcy.de/nordlicht16/two%20hundred.zip binary<br/>3DS
-http://www.pouet.net/prod.php?which=TODOFIXME pouet
+https://www.pouet.net/prod.php?which=67668 pouet
 https://www.youtube.com/watch?v=DZ9gHD0sJYU video
 
 ~Intro|negative space|00066747.jpg|http://www.pouet.net/prod.php?which=66747
