@@ -1,7 +1,11 @@
 # Add new releases on top. Format should be obvious.
 # Two links is minimum, five links is maximum.
 # You can add comments if you want to.
-# To update: perl rebuild.pl < demos.txt
+# To update: perl rebuild.pl < demos.txt	
+~Intro|negative space|00069690.jpg|http://www.pouet.net/prod.php?which=69690
+http://aka-san.halcy.de/revision2017/Soap%20Washing%20Itself.zip binary<br/>pc<br/>win
+http://www.pouet.net/prod.php?which=69690 pouet
+https://www.youtube.com/watch?v=0z2hsV55S-I video
 
 ~Demo|two hundred|two_hundred.jpg|https://www.pouet.net/prod.php?which=67668
 http://aka-san.halcy.de/nordlicht16/two%20hundred.zip binary<br/>3DS
