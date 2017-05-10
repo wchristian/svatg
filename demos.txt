@@ -2,7 +2,7 @@
 # Two links is minimum, five links is maximum.
 # You can add comments if you want to.
 # To update: perl rebuild.pl < demos.txt	
-~Intro|negative space|00069690.jpg|http://www.pouet.net/prod.php?which=69690
+~Intro|soap washing itself|00069690.jpg|http://www.pouet.net/prod.php?which=69690
 http://aka-san.halcy.de/revision2017/Soap%20Washing%20Itself.zip binary<br/>pc<br/>win
 http://www.pouet.net/prod.php?which=69690 pouet
 https://www.youtube.com/watch?v=0z2hsV55S-I video
