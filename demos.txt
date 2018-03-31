@@ -1,7 +1,12 @@
 # Add new releases on top. Format should be obvious.
 # Two links is minimum, five links is maximum.
 # You can add comments if you want to.
-# To update: perl rebuild.pl < demos.txt	
+# To update: perl rebuild.pl < demos.txt
+~Intro|evoke20 partyscroller|00071582.jpg|http://www.pouet.net/prod.php?which=71582
+https://files.scene.org/view/parties/2017/evoke17/alternative_platforms/evoke20.zip binary<br/>3DS
+http://www.pouet.net/prod.php?which=71582 pouet
+https://www.youtube.com/watch?v=qlwYiXtvA7s video
+
 ~Intro|soap washing itself|00069690.jpg|http://www.pouet.net/prod.php?which=69690
 http://aka-san.halcy.de/revision2017/Soap%20Washing%20Itself.zip binary<br/>pc<br/>win
 http://www.pouet.net/prod.php?which=69690 pouet
