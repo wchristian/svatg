@@ -24,9 +24,6 @@ sub output_single_prod {
     my $link_class = $link_classes[(scalar @links) - 2];
     print $temp_file '        <td class="full">' . "\n";
     print $temp_file '            <div>' . "\n";
-    print $temp_file '            <a class="upper" href="' . $primary_link . '">' . "\n";
-    print $temp_file '            <div class="imagecont"><img src="images/' . $image . '" alt="' . $title . '"/></a></div>' . "\n";
-    print $temp_file '            </a>' . "\n";
     print $temp_file '            <div class="lower">' . "\n";
     print $temp_file '            <div class="linkcont">' . "\n";
     foreach my $link_counter (0..((scalar @links) - 1)) {
@@ -40,6 +37,12 @@ sub output_single_prod {
     }
     print $temp_file '            </div>' . "\n";
     print $temp_file '            </div>' . "\n";
+    
+    print $temp_file '            <a class="upper" href="' . $primary_link . '">' . "\n";
+    print $temp_file '            <div class="imagecont"><img src="images/' . $image . '" alt="' . $title . '"/>';
+    print $temp_file '<h3>' . $title . '</h3></div>' . "\n";
+    print $temp_file '            </a>' . "\n";
+    
     print $temp_file '            </div>' . "\n";
     print $temp_file '        </td>' . "\n";
 }

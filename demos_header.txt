@@ -108,12 +108,22 @@
             width:264px;
         }
         #releases tr td img {
+            position:relative;
             width: 264px;
             margin:0;
             padding:0;
             border:0;
             top:0;
             left:0;
+        }
+        #releases tr td h3 {
+            font-size: 10pt;
+            position: absolute; 
+            bottom: 0; 
+            left: 0; 
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            color: #FFFFFF;
         }
         #releases tr td .upper {
             display:block;
@@ -123,6 +133,8 @@
             position:relative;
             top:0;
             left:0;
+            margin-top:-140px;
+            height: 140px;
             z-index:2;
         }
         #releases tr td .upper:hover {
@@ -136,11 +148,15 @@
             position:relative;
             top:0;
             left:0;
-            margin-top:-140px;
             z-index:1;
+            height: 140px;
+            font-size: 12pt;        
         }
         #releases tr td .lower:hover {
             z-index:3;
+        }
+        #releases tr td .lower:hover + .upper h3 {
+            visibility: hidden;
         }
         div.imagecont {
             position:relative;
@@ -167,7 +183,7 @@
             color:#FFFFFF;
             vertical-align:middle;      
         }
-            div.linkcont a span {
+        div.linkcont a span {
             display:inline-block;
             padding-top:3%;
         }

@@ -108,12 +108,22 @@
             width:264px;
         }
         #releases tr td img {
+            position:relative;
             width: 264px;
             margin:0;
             padding:0;
             border:0;
             top:0;
             left:0;
+        }
+        #releases tr td h3 {
+            font-size: 10pt;
+            position: absolute; 
+            bottom: 0; 
+            left: 0; 
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            color: #FFFFFF;
         }
         #releases tr td .upper {
             display:block;
@@ -123,6 +133,8 @@
             position:relative;
             top:0;
             left:0;
+            margin-top:-140px;
+            height: 140px;
             z-index:2;
         }
         #releases tr td .upper:hover {
@@ -136,11 +148,15 @@
             position:relative;
             top:0;
             left:0;
-            margin-top:-140px;
             z-index:1;
+            height: 140px;
+            font-size: 12pt;        
         }
         #releases tr td .lower:hover {
             z-index:3;
+        }
+        #releases tr td .lower:hover + .upper h3 {
+            visibility: hidden;
         }
         div.imagecont {
             position:relative;
@@ -167,7 +183,7 @@
             color:#FFFFFF;
             vertical-align:middle;      
         }
-            div.linkcont a span {
+        div.linkcont a span {
             display:inline-block;
             padding-top:3%;
         }
@@ -213,9 +229,6 @@
         <tr>
         <td class="full">
             <div>
-            <a class="upper" href="https://www.pouet.net/prod.php?which=67668">
-            <div class="imagecont"><img src="images/two_hundred.jpg" alt="two hundred"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="fivelink_a" href="http://aka-san.halcy.de/nordlicht16/two%20hundred.zip"><span>binary<br/>3DS</span></a>
@@ -225,13 +238,13 @@
                 <a class="fivelink_b" href="https://www.youtube.com/watch?v=aee3Nv4UBS8"><span>video<br/>3D<br/>youtube</span></a>
             </div>
             </div>
+            <a class="upper" href="https://www.pouet.net/prod.php?which=67668">
+            <div class="imagecont"><img src="images/two_hundred.jpg" alt="two hundred"/><h3>two hundred</h3></div>
+            </a>
             </div>
         </td>
         <td class="full">
             <div>
-            <a class="upper" href="http://www.pouet.net/prod.php?which=69690">
-            <div class="imagecont"><img src="images/00069690.jpg" alt="soap washing itself"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="threelink" href="http://aka-san.halcy.de/revision2017/Soap%20Washing%20Itself.zip"><span>binary<br/>pc<br/>win</span></a>
@@ -239,13 +252,13 @@
                 <a class="threelink" href="https://www.youtube.com/watch?v=0z2hsV55S-I"><span>video</span></a>
             </div>
             </div>
+            <a class="upper" href="http://www.pouet.net/prod.php?which=69690">
+            <div class="imagecont"><img src="images/00069690.jpg" alt="soap washing itself"/><h3>soap washing itself</h3></div>
+            </a>
             </div>
         </td>
         <td class="full">
             <div>
-            <a class="upper" href="http://www.pouet.net/prod.php?which=58252">
-            <div class="imagecont"><img src="images/58252.jpg" alt="SoratobuOL tai shinrei"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="threelink" href="http://wakaba.c3.cx/svatg/Soratobu_OL_tai_shinrei_%5btUM_2011_Windows_version%5d.zip"><span>binary<br/>pc<br/>win</span></a>
@@ -253,15 +266,15 @@
                 <a class="threelink" href="http://www.pouet.net/prod.php?which=58252"><span>pouet</span></a>
             </div>
             </div>
+            <a class="upper" href="http://www.pouet.net/prod.php?which=58252">
+            <div class="imagecont"><img src="images/58252.jpg" alt="SoratobuOL tai shinrei"/><h3>SoratobuOL tai shinrei</h3></div>
+            </a>
             </div>
         </td>
         </tr>
         <tr>
         <td class="full">
             <div>
-            <a class="upper" href="http://pouet.net/prod.php?which=61477">
-            <div class="imagecont"><img src="images/61477.jpg" alt="Super Burrito Legend"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="threelink" href="http://scene.org/file.php?file=%2Fparties%2F2013%2Fatparty13%2Fdemo%2Fsuper.zip&fileinfo"><span>binary<br/>pc<br/>win</span></a>
@@ -269,13 +282,13 @@
                 <a class="threelink" href="http://www.youtube.com/watch?v=Fl8xbfYm9G4"><span>video</span></a>
             </div>
             </div>
+            <a class="upper" href="http://pouet.net/prod.php?which=61477">
+            <div class="imagecont"><img src="images/61477.jpg" alt="Super Burrito Legend"/><h3>Super Burrito Legend</h3></div>
+            </a>
             </div>
         </td>
         <td class="full">
             <div>
-            <a class="upper" href="http://www.pouet.net/prod.php?which=66747">
-            <div class="imagecont"><img src="images/00066747.jpg" alt="negative space"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="threelink" href="http://aka-san.halcy.de/underconstruction2015/negative%20space.zip"><span>binary<br/>pc<br/>win</span></a>
@@ -283,28 +296,28 @@
                 <a class="threelink" href="https://www.youtube.com/watch?v=ndvNLMCoQeI"><span>video</span></a>
             </div>
             </div>
+            <a class="upper" href="http://www.pouet.net/prod.php?which=66747">
+            <div class="imagecont"><img src="images/00066747.jpg" alt="negative space"/><h3>negative space</h3></div>
+            </a>
             </div>
         </td>
         <td class="full">
             <div>
-            <a class="upper" href="http://www.pouet.net/prod.php?which=58249">
-            <div class="imagecont"><img src="images/58249.png" alt="Herocat vs. Univillain"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="twolink" href="http://halcy.de/tum2011/univillain.zip"><span>binary<br/>nds</span></a>
                 <a class="twolink" href="http://www.pouet.net/prod.php?which=58249"><span>pouet</span></a>
             </div>
             </div>
+            <a class="upper" href="http://www.pouet.net/prod.php?which=58249">
+            <div class="imagecont"><img src="images/58249.png" alt="Herocat vs. Univillain"/><h3>Herocat vs. Univillain</h3></div>
+            </a>
             </div>
         </td>
         </tr>
         <tr>
         <td class="full">
             <div>
-            <a class="upper" href="http://pouet.net/prod.php?which=61197">
-            <div class="imagecont"><img src="images/61197.jpg" alt="Jupiter &amp; Beyond"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="fourlink" href="http://aka-san.halcy.de/revision2013/jupiter.zip"><span>binary<br/>arm</span></a>
@@ -313,54 +326,54 @@
                 <a class="fourlink" href="http://www.youtube.com/watch?v=ymGCeG9_6c0"><span>video</span></a>
             </div>
             </div>
+            <a class="upper" href="http://pouet.net/prod.php?which=61197">
+            <div class="imagecont"><img src="images/61197.jpg" alt="Jupiter &amp; Beyond"/><h3>Jupiter &amp; Beyond</h3></div>
+            </a>
             </div>
         </td>
         <td class="full">
             <div>
-            <a class="upper" href="http://www.pouet.net/prod.php?which=63593">
-            <div class="imagecont"><img src="images/63593.jpg" alt="suboptimal hexagon"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="twolink" href="https://www.scene.org/file.php?file=%2Fparties%2F2014%2Fatparty14%2Fdemo_combined%2Fsuboptimalhex.zip&fileinfo"><span>binary<br/>pc<br/>win</span></a>
                 <a class="twolink" href="http://www.pouet.net/prod.php?which=63593"><span>pouet</span></a>
             </div>
             </div>
+            <a class="upper" href="http://www.pouet.net/prod.php?which=63593">
+            <div class="imagecont"><img src="images/63593.jpg" alt="suboptimal hexagon"/><h3>suboptimal hexagon</h3></div>
+            </a>
             </div>
         </td>
         <td class="full">
             <div>
-            <a class="upper" href="http://www.pouet.net/prod.php?which=56461">
-            <div class="imagecont"><img src="images/56461.jpg" alt="The Last Cubinator"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="twolink" href="http://aka-san.halcy.de/tum/tlc.zip"><span>binary<br/>pc<br/>win</span></a>
                 <a class="twolink" href="http://www.pouet.net/prod.php?which=56461"><span>pouet</span></a>
             </div>
             </div>
+            <a class="upper" href="http://www.pouet.net/prod.php?which=56461">
+            <div class="imagecont"><img src="images/56461.jpg" alt="The Last Cubinator"/><h3>The Last Cubinator</h3></div>
+            </a>
             </div>
         </td>
         </tr>
         <tr>
         <td class="full">
             <div>
-            <a class="upper" href="http://pouet.net/prod.php?which=59692">
-            <div class="imagecont"><img src="images/59692.jpg" alt="SVatG Loves You"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="twolink" href="http://aka-san.halcy.de/evoke2012/svatglovesyou.zip"><span>binary<br/>nds</span></a>
                 <a class="twolink" href="http://pouet.net/prod.php?which=59692"><span>pouet</span></a>
             </div>
             </div>
+            <a class="upper" href="http://pouet.net/prod.php?which=59692">
+            <div class="imagecont"><img src="images/59692.jpg" alt="SVatG Loves You"/><h3>SVatG Loves You</h3></div>
+            </a>
             </div>
         </td>
         <td class="full">
             <div>
-            <a class="upper" href="http://pouet.net/prod.php?which=62933">
-            <div class="imagecont"><img src="images/62933.jpg" alt="Great-Scott"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="threelink" href="http://aka-san.halcy.de/revision2014/great-scott.zip"><span>binary<br/>pc<br/>win</span></a>
@@ -368,28 +381,28 @@
                 <a class="threelink" href="https://www.youtube.com/watch?v=DGQGNy_mpus"><span>video</span></a>
             </div>
             </div>
+            <a class="upper" href="http://pouet.net/prod.php?which=62933">
+            <div class="imagecont"><img src="images/62933.jpg" alt="Great-Scott"/><h3>Great-Scott</h3></div>
+            </a>
             </div>
         </td>
         <td class="full">
             <div>
-            <a class="upper" href="http://www.pouet.net/prod.php?which=54211">
-            <div class="imagecont"><img src="images/54211.png" alt="Puc McAwesome"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="twolink" href="http://aka-san.halcy.de/tum/PucMcAwesome.zip"><span>binary<br/>nds</span></a>
                 <a class="twolink" href="http://www.pouet.net/prod.php?which=54211"><span>pouet</span></a>
             </div>
             </div>
+            <a class="upper" href="http://www.pouet.net/prod.php?which=54211">
+            <div class="imagecont"><img src="images/54211.png" alt="Puc McAwesome"/><h3>Puc McAwesome</h3></div>
+            </a>
             </div>
         </td>
         </tr>
         <tr>
         <td class="full">
             <div>
-            <a class="upper" href="http://www.pouet.net/prod.php?which=59114">
-            <div class="imagecont"><img src="images/59114.png" alt="Blockparty 5 Non-Invitation"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="fourlink" href="http://engramstudio.com/demo/bpnonvite.zip"><span>binary<br/>pc<br/>win</span></a>
@@ -398,19 +411,22 @@
                 <a class="fourlink" href="http://www.youtube.com/watch?v=bpd0aG6WoMs"><span>video<br/>live</span></a>
             </div>
             </div>
+            <a class="upper" href="http://www.pouet.net/prod.php?which=59114">
+            <div class="imagecont"><img src="images/59114.png" alt="Blockparty 5 Non-Invitation"/><h3>Blockparty 5 Non-Invitation</h3></div>
+            </a>
             </div>
         </td>
         <td class="full">
             <div>
-            <a class="upper" href="http://pouet.net/prod.php?which=59385">
-            <div class="imagecont"><img src="images/59385.png" alt="Hompy"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="twolink" href="http://engramstudio.com/demo/hompy.zip"><span>binary<br/>pc<br/>dos</span></a>
                 <a class="twolink" href="http://pouet.net/prod.php?which=59385"><span>pouet</span></a>
             </div>
             </div>
+            <a class="upper" href="http://pouet.net/prod.php?which=59385">
+            <div class="imagecont"><img src="images/59385.png" alt="Hompy"/><h3>Hompy</h3></div>
+            </a>
             </div>
         </td>
         <td></td>
@@ -418,9 +434,6 @@
         <tr>
         <td class="full">
             <div>
-            <a class="upper" href="http://www.pouet.net/prod.php?which=59095">
-            <div class="imagecont"><img src="images/59095.jpg" alt="Peridiummmm"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="fivelink_a" href="http://aka-san.halcy.de/revision2012/peridiummmm.zip"><span>binary<br/>arm</span></a>
@@ -430,19 +443,22 @@
                 <a class="fivelink_b" href="http://www.youtube.com/watch?v=22XphZTmq4U"><span>video<br/>live</span></a>
             </div>
             </div>
+            <a class="upper" href="http://www.pouet.net/prod.php?which=59095">
+            <div class="imagecont"><img src="images/59095.jpg" alt="Peridiummmm"/><h3>Peridiummmm</h3></div>
+            </a>
             </div>
         </td>
         <td class="full">
             <div>
-            <a class="upper" href="http://www.pouet.net/prod.php?which=56460">
-            <div class="imagecont"><img src="images/56460.png" alt="jules"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="twolink" href="http://aka-san.halcy.de/tum/jules.zip"><span>binary<br/>pc<br/>win</span></a>
                 <a class="twolink" href="http://www.pouet.net/prod.php?which=56460"><span>pouet</span></a>
             </div>
             </div>
+            <a class="upper" href="http://www.pouet.net/prod.php?which=56460">
+            <div class="imagecont"><img src="images/56460.png" alt="jules"/><h3>jules</h3></div>
+            </a>
             </div>
         </td>
         <td></td>
@@ -450,9 +466,6 @@
         <tr>
         <td class="full">
             <div>
-            <a class="upper" href="http://www.pouet.net/prod.php?which=56864">
-            <div class="imagecont"><img src="images/56864.png" alt="Heinrich-Siegfried-Viktor"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="threelink" href="http://aka-san.halcy.de/revision/heinrichsiegfriedviktor.zip"><span>binary<br/>nds</span></a>
@@ -460,13 +473,13 @@
                 <a class="threelink" href="http://www.youtube.com/watch?v=oEho9aEhUX0"><span>video</span></a>
             </div>
             </div>
+            <a class="upper" href="http://www.pouet.net/prod.php?which=56864">
+            <div class="imagecont"><img src="images/56864.png" alt="Heinrich-Siegfried-Viktor"/><h3>Heinrich-Siegfried-Viktor</h3></div>
+            </a>
             </div>
         </td>
         <td class="full">
             <div>
-            <a class="upper" href="http://www.pouet.net/prod.php?which=54532">
-            <div class="imagecont"><img src="images/54532.jpg" alt="Five Dollar Plastic Laminator"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="threelink" href="http://aka-san.halcy.de/bp2010/5dpl.zip"><span>binary<br/>pc<br/>win</span></a>
@@ -474,6 +487,9 @@
                 <a class="threelink" href="http://capped.tv/svatg-five_dollar_plastic_laminator"><span>video</span></a>
             </div>
             </div>
+            <a class="upper" href="http://www.pouet.net/prod.php?which=54532">
+            <div class="imagecont"><img src="images/54532.jpg" alt="Five Dollar Plastic Laminator"/><h3>Five Dollar Plastic Laminator</h3></div>
+            </a>
             </div>
         </td>
         <td></td>
@@ -481,9 +497,6 @@
         <tr>
         <td class="full">
             <div>
-            <a class="upper" href="http://www.pouet.net/prod.php?which=55739">
-            <div class="imagecont"><img src="images/55739.png" alt="It's 1975 and this man is about to show you the future"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="fourlink" href="http://aka-san.halcy.de/evoke2010/its1975andthismanisabouttoshowyouthefuture.zip"><span>binary<br/>nds</span></a>
@@ -492,13 +505,13 @@
                 <a class="fourlink" href="http://www.youtube.com/watch?v=Af-gjk39lds"><span>video<br/>live</span></a>
             </div>
             </div>
+            <a class="upper" href="http://www.pouet.net/prod.php?which=55739">
+            <div class="imagecont"><img src="images/55739.png" alt="It's 1975 and this man is about to show you the future"/><h3>It's 1975 and this man is about to show you the future</h3></div>
+            </a>
             </div>
         </td>
         <td class="full">
             <div>
-            <a class="upper" href="http://www.pouet.net/prod.php?which=54210">
-            <div class="imagecont"><img src="images/54210.png" alt="Four Dollar Plastic Laminator"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="threelink" href="http://aka-san.halcy.de/tum/SVatG_FourDollarPlasticLaminator.zip"><span>binary<br/>pc<br/>linux</span></a>
@@ -506,6 +519,9 @@
                 <a class="threelink" href="http://www.youtube.com/watch?v=COluewhIUG4"><span>video</span></a>
             </div>
             </div>
+            <a class="upper" href="http://www.pouet.net/prod.php?which=54210">
+            <div class="imagecont"><img src="images/54210.png" alt="Four Dollar Plastic Laminator"/><h3>Four Dollar Plastic Laminator</h3></div>
+            </a>
             </div>
         </td>
         <td></td>
@@ -513,9 +529,6 @@
         <tr>
         <td class="full">
             <div>
-            <a class="upper" href="http://www.pouet.net/prod.php?which=54271">
-            <div class="imagecont"><img src="images/54271.png" alt="Nulltro"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="threelink" href="http://engramstudio.com/nulltro.rar"><span>binary<br/>pc<br/>win</span></a>
@@ -523,6 +536,9 @@
                 <a class="threelink" href="http://www.youtube.com/watch?v=S6-q9RHjn6c"><span>video</span></a>
             </div>
             </div>
+            <a class="upper" href="http://www.pouet.net/prod.php?which=54271">
+            <div class="imagecont"><img src="images/54271.png" alt="Nulltro"/><h3>Nulltro</h3></div>
+            </a>
             </div>
         </td>
         <td></td>
@@ -531,9 +547,6 @@
         <tr>
         <td class="full">
             <div>
-            <a class="upper" href="http://www.pouet.net/prod.php?which=52967">
-            <div class="imagecont"><img src="images/52967.png" alt="The Strongest Demo"/></a></div>
-            </a>
             <div class="lower">
             <div class="linkcont">
                 <a class="threelink" href="http://wakaba.c3.cx/releases/scene/the_strongest_demo.zip"><span>binary<br/>nds</span></a>
@@ -541,6 +554,9 @@
                 <a class="threelink" href="http://www.youtube.com/watch?v=_JfbN0gBZFE"><span>video</span></a>
             </div>
             </div>
+            <a class="upper" href="http://www.pouet.net/prod.php?which=52967">
+            <div class="imagecont"><img src="images/52967.png" alt="The Strongest Demo"/><h3>The Strongest Demo</h3></div>
+            </a>
             </div>
         </td>
         <td></td>
