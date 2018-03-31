@@ -119,7 +119,7 @@
         #releases tr td h3 {
             font-size: 10pt;
             position: absolute; 
-            bottom: 0; 
+            bottom: 5px; 
             left: 0; 
             width: 100%;
             background: rgba(0, 0, 0, 0.5);
