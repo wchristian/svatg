@@ -39,8 +39,7 @@ http://pouet.net/prod.php?which=62933 pouet
 https://www.youtube.com/watch?v=DGQGNy_mpus video
 
 ~Game|SoratobuOL tai shinrei|58252.jpg|http://www.pouet.net/prod.php?which=58252
-http://wakaba.c3.cx/svatg/Soratobu_OL_tai_shinrei_%5btUM_2011_Windows_version%5d.zip binary<br/>pc<br/>win
-http://wakaba.c3.cx/svatg/Soratobu_OL_tai_shinrei_%5bMac_early_preview_version%5d.zip binary<br/>mac
+https://waha06x36.itch.io/soratobu-ol binaries<br/>mac<br/>win
 http://www.pouet.net/prod.php?which=58252 pouet
 
 ~Demo|Jupiter &amp; Beyond|61197.jpg|http://pouet.net/prod.php?which=61197
