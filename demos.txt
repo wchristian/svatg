@@ -2,6 +2,13 @@
 # Two links is minimum, five links is maximum.
 # You can add comments if you want to.
 # To update: perl rebuild.pl < demos.txt
+~Demo|Raumfahrtaufgaben übertragungsgesetz|00077101.jpg|http://www.pouet.net/prod.php?which=77101
+http://aka-san.halcy.de/nordlicht18/raumfahrt_upload.zip binary<br/>3DS
+http://www.pouet.net/prod.php?which=77101 pouet
+https://www.youtube.com/watch?v=q5U4gUxXnQc video
+http://aka-san.halcy.de/nordlicht18/raueg_stereo3d_sbs.mp4 video<br/>3D<br/>download
+https://www.youtube.com/watch?v=FHa5dKLcdJs video<br/>3D<br/>youtube
+
 ~Intro|evoke20 partyscroller|00071582.jpg|http://www.pouet.net/prod.php?which=71582
 https://files.scene.org/view/parties/2017/evoke17/alternative_platforms/evoke20.zip binary<br/>3DS
 http://www.pouet.net/prod.php?which=71582 pouet
