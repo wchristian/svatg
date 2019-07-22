@@ -2,11 +2,23 @@
 # Two links is minimum, five links is maximum.
 # You can add comments if you want to.
 # To update: perl rebuild.pl < demos.txt
+~Demo|Skate Station|00082158.jpg|http://www.pouet.net/prod.php?which=82158
+https://aka-san.halcy.de/nordlicht2019/Skate%20Station.zip binary<br/>3DS
+http://www.pouet.net/prod.php?which=82158 pouet
+https://www.youtube.com/watch?v=JeTrrkxz9ag video
+https://www.youtube.com/watch?v=QlU5n37Olic video<br/>3D<br/>youtube
+https://github.com/halcy/nordlicht19 source<br/>github
+
+~Intro|Ü|00082159.jpg|http://www.pouet.net/prod.php?which=82159
+http://aka-san.halcy.de/nordlicht2019/Ü.zip binary<br/>win</br>x64
+http://www.pouet.net/prod.php?which=82159 pouet
+https://www.youtube.com/watch?v=80RtPSGTnA4 video
+
 ~Demo|Raumfahrtaufgaben übertragungsgesetz|00077101.jpg|http://www.pouet.net/prod.php?which=77101
 http://aka-san.halcy.de/nordlicht18/raumfahrt_upload.zip binary<br/>3DS
 http://www.pouet.net/prod.php?which=77101 pouet
 https://www.youtube.com/watch?v=q5U4gUxXnQc video
-http://aka-san.halcy.de/nordlicht18/raueg_stereo3d_sbs.mp4 video<br/>3D<br/>download
+http://aka-san.halcy.de/nordlicht18/raueg_stereo3d_sbs.mp4 video<br/>3D sbs<br/>download
 https://www.youtube.com/watch?v=FHa5dKLcdJs video<br/>3D<br/>youtube
 
 ~Intro|evoke20 partyscroller|00071582.jpg|http://www.pouet.net/prod.php?which=71582
