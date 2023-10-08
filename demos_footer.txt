@@ -7,7 +7,7 @@
 
     <div style="font-size:12px;"><a href="http://codepad.org/qJLklltO"><pre>main(x,y,n){for(y=15;y&gt;-x;puts(""),y-=2)for(x=-x;x&lt;13;x++)n=x*x+y*y-99,putchar(" +"[n*n*n-x*x*y*y*y*20&lt;3]);}</pre></a></div>
     
-    <pre>release 3DS prods, you cowards!</pre>
+    <pre>please send us your ideas for better pull quotes</pre>
     </div>
 </div>
 </div>

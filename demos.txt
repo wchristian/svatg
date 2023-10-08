@@ -2,6 +2,38 @@
 # Two links is minimum, five links is maximum.
 # You can add comments if you want to.
 # To update: perl rebuild.pl < demos.txt
+
+~Intro|haus|00095228.jpg|https://www.pouet.net/prod.php?which=95228
+https://aka-san.halcy.de/deadline23/deadline23.3dsx binary<br/>3DS
+https://www.pouet.net/prod.php?which=95228 pouet
+https://www.youtube.com/watch?v=DuUCQJSFitc video
+
+~Demo|Raccoons Ate My Ticket|00094717.jpg|https://www.pouet.net/prod.php?which=94717
+https://aka-san.halcy.de/evoke2023/raccoons%20ate%20my%20ticket.zip binary</br>3DS
+https://www.pouet.net/prod.php?which=94717 pouet
+https://www.youtube.com/watch?v=9F15-T_SRqI video
+
+~Intro|demo platform|00092421.jpg|https://www.pouet.net/prod.php?which=92421
+https://aka-san.halcy.de/deadline22/SVatG%20-%20demo%20platform%20(deadline%202022).zip binary<br/>3DS
+https://www.pouet.net/prod.php?which=92421 pouet
+https://www.youtube.com/watch?v=6p9LtA5lteg video
+
+~Demo|Hotel Nordlicht|00092362.jpg|https://www.pouet.net/prod.php?which=92362
+https://aka-san.halcy.de/nordlicht2022/svatg-nordlicht22-hotelnordlicht-upload.zip binary</br>3DS
+https://www.pouet.net/prod.php?which=92362 pouet
+https://www.youtube.com/watch?v=WQu18AeJMz8 video
+https://www.youtube.com/watch?v=E9WBbTszquY video<br/>3D<br/>youtube
+
+~Intro|Glitterbox|00086452.jpg|https://www.pouet.net/prod.php?which=86452
+https://aka-san.halcy.de/fieldfx2020/SVatG%20-%20Glitterbox.zip binary<br/>pc<br/>win
+https://www.pouet.net/prod.php?which=86452 pouet
+https://www.youtube.com/watch?v=EmUqy4bxuos video
+
+~Intro|UFO from Planet Slime|00085275.jpg|https://www.pouet.net/prod.php?which=85275
+https://files.scene.org/view/parties/2020/revision20/wild/k2%2Bpsk%2Bsvatg-ups.zip binar<br/>NDS
+https://www.pouet.net/prod.php?which=85275 pouet
+https://www.youtube.com/watch?v=8GGo5Ph04go video
+
 ~Demo|Skate Station|00082158.jpg|http://www.pouet.net/prod.php?which=82158
 https://aka-san.halcy.de/nordlicht2019/Skate%20Station.zip binary<br/>3DS
 http://www.pouet.net/prod.php?which=82158 pouet
